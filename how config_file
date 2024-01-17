@@ -1,0 +1,5 @@
+ name | setting | unit |                       category                       |                short_desc                | extra_desc |  context   | vartype |       source       | min_val | max_val | enumvals | boot_val | reset_val |               sourcefile                | sourceline | pending_restart 
+------+---------+------+------------------------------------------------------+------------------------------------------+------------+------------+---------+--------------------+---------+---------+----------+----------+-----------+-----------------------------------------+------------+-----------------
+ port | 5433    |      | Connections and Authentication / Connection Settings | Sets the TCP port the server listens on. |            | postmaster | integer | configuration file | 1       | 65535   |          | 5432     | 5433      | /etc/postgresql/14/main/postgresql.conf |         68 | f
+(1 row)
+
